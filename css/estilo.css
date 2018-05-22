@@ -1,0 +1,129 @@
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+	src: url(../fonts/Roboto-Thin.ttf);
+}
+.contenido{
+	width: 80%; /*solo abarca el 80& de la pantalla */
+	max-width: 1000px;
+	margin:0 auto;/*es para centra contenido*/
+
+
+}
+body{
+margin: 0;
+}
+header{
+background-color: #FFE6EB;
+font-family: Roboto-Regular;
+font-style: bold;
+font-size: 16px;
+
+padding: 40px;
+
+}
+.izq{
+	float: left;
+
+}
+.izq a{
+	margin-right: 15px;
+	text-decoration: none;
+	color: #404B69;
+}
+.der{
+	float: right;
+
+}
+.der a{
+	margin-right: 25px;
+}
+.nombre{
+	font-size: 22px;
+	font-style: bold;
+	font-family: Roboto-Medium;
+}
+h1{
+	font-family: Roboto-Medium;
+	font-size: 50px;
+	color: #232931;
+}	
+
+.img1{
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-left: 20px;
+	border-radius: 12px;
+}
+h2{
+	color: #9F609C;
+	font-family: Roboto-Medium;
+	font-size: 44px;
+}
+h3{
+	font-size: 30px;
+    color: #404B69;
+    font-family: Roboto-Medium;
+}
+p{
+	font-size: 22px;
+    color: #404B69;
+    font-family: Roboto-Thin;
+    text-align: justify;
+}
+article{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.imgs{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 12px;
+}
+.imgss{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-right: 12px;
+    float:left;
+}
+
+.recetas{
+	font-size: 18px;
+  
+}
+figure{
+	margin-bottom: 100px;
+  
+}
+h4{
+	
+    font-family: Roboto-Medium;
+}
+.fotos{
+	max-width: 250px;
+	 height: auto;
+    margin: 5px;
+    width: 100%;	 
+}
+.footer{
+	max-width: 100%;
+	height: auto;		
+}
+
+
+
+
+
+
+
